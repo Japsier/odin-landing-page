@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    justify-content: stretch;
+
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+.title {
+    color: white;
+}
+.one {
+    display: flex;
+    flex-grow: 1;
+}
+.two {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-grow: 1;
+}
+.three {
+    display: flex;
+    flex-grow: 1;
+}
+
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
