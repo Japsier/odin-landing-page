@@ -2,16 +2,66 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 100vh;
-    justify-content: stretch;
+    min-height: 100vh;
+    justify-content: space-between;
 
 }
 
 .header {
     display: flex;
     background-color: #1F2937;
+    flex: 1 0 auto;
+    flex-direction: column;
+    
+}
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 30px;
+
+}
+.headerlogo {
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.headerbottom {
+    display: flex;
+    gap: 20px;
+}
+.left {
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.right {
+    justify-content: flex-start;
+    flex-grow: 1;
 }
 .title {
     color: white;
+    width: 300px;
+    font-size: 48px;
+    font-weight: 800;
+}
+.text {
+    width: 300px;
+    color:  #E5E7EB;
+    font-size: 18px;
+}
+.button {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 10px;
+    width: 25%;
+    font-size: medium;
 }
 .one {
     display: flex;
@@ -24,7 +74,7 @@ body {
 }
 .three {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0.5;
 }
 
 
@@ -35,4 +85,21 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+    color:  #E5E7EB;
+    font-size: 18px;
+    align-items: center;
+}
+
+.headerlogo, .title, .text, .button {
+    margin-left: 100px;
+}
+ul, .headerimg {    
+    margin-right: 100px;
 }
