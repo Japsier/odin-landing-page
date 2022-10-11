@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-
+    text-align: center;
     font-family: 'Roboto', arial
 
 }
@@ -29,15 +29,19 @@ a {
 }
 .headerbottom {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding: 20px;
 }
 .left {
     justify-content: flex-end;
-    flex-grow: 1;
+    text-align: start;
 }
 .right {
     justify-content: flex-start;
-    flex-grow: 1;
+    width: 500;
 }
 .title {
     color: white;
@@ -50,7 +54,7 @@ a {
     color:  #E5E7EB;
 }
 .button {
-    display: flex;
+    display: block;
     background-color: #3882F6;
     border-radius: 10px;
     border-color: #3882F6;
@@ -58,7 +62,7 @@ a {
     justify-content: center;
     color: white;
     margin-top: 10px;
-    width: 25%;
+    width: 120px;
     font-size: medium;
 }
 .one {
@@ -83,6 +87,7 @@ a {
     margin-bottom: 30px;
     flex-wrap: wrap;
     flex: 1;
+    margin-left: 36px;
 }
 .picture {
     display: flex;
@@ -93,6 +98,7 @@ a {
     border-color: blue;
     text-align: center;
     justify-content: center;
+    gap: 10px;
 
 }
 .img {
@@ -109,15 +115,50 @@ a {
     flex-direction: column;
     justify-self: center;
     align-self: center;
+    padding: 100px;
+    gap: 10px;
 }
-.quote {
+.two p {
+  color: #1F2937; 
+  font-size: 36px; 
+  font-style: light italic;
+  margin: 0;
 
 }
+
 .three {
     display: flex;
     flex-grow: 1 0 auto;
-}
+    justify-content: center;
+    margin: 50px;
 
+}
+.bluebox {
+    display: flex;
+    background-color: #3882F6;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+h3 {
+    color: white;
+    text-align: start;
+    font-size: 26px;
+    margin: 0;
+}
+.infotext {
+   gap: 3px;
+}
+.bluebox button {
+    border: 3px solid white;
+    margin: 0;
+    padding: 10px;
+    font-weight: 500px;
+}
 
 .footer {
     display: flex;
