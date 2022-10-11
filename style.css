@@ -4,6 +4,7 @@ body {
     min-width: 100vh;
     min-height: 100vh;
     justify-content: space-between;
+    font-family: 'Roboto', arial
 
 }
 
@@ -49,7 +50,6 @@ a {
 .text {
     width: 300px;
     color:  #E5E7EB;
-    font-size: 18px;
 }
 .button {
     display: flex;
@@ -65,7 +65,43 @@ a {
 }
 .one {
     display: flex;
-    flex-grow: 1;
+
+    flex-direction: column;
+    align-items: center;
+
+}
+.information {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 30px;
+
+
+}
+.pictures {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.picture {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    border-color: blue;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+
+}
+.img {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 .two {
     display: flex;
